@@ -1,0 +1,575 @@
+/* ################################################### */
+
+p {margin-bottom: 20px;}
+strong {font-weight: bold;}
+em {font-style: italic; font-size: 13px; font-weight: 100; letter-spacing: 3px; word-spacing: 4px;}
+.clear {clear:both;}
+
+/* ################################################### */
+
+
+
+
+
+
+/* ################################################### */
+
+/* Home Page */
+
+/* ################################################### */
+
+
+
+
+@font-face {
+    font-family: 'Raleway Dots', cursive;
+    
+    font-family: 'Raleway', sans-serif;
+    
+    font-family: 'Handlee', cursive;
+}
+
+#homeheader {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+}
+
+.headerbackgroundhome {
+    background-image: url(../images/flower-annie-spratt-651321-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+#homebody {
+    background-image: url(../images/faces/Homepage.png);
+    background-size: cover;
+    background-position: top center;
+    z-index: 2;
+}
+
+main {
+    width: 900px;
+    padding-top: 400px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+footer {
+    background: #f2f2f2;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    border-top: 1px solid black;
+}
+
+.nav {
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Raleway', bold;
+    word-spacing: 330px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+.nav a {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline;
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Raleway Dots';
+    font-weight: 550;
+    color: white;
+    padding-top: 490px;
+    font-weight: 550;
+}
+
+.inleiding-titel {
+    width: 900px;
+    background: none;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    padding-top: 450px;
+    font-family: 'Raleway', bold;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.inleiding {
+    width: 500px;
+    background: none;
+    margin: 0 auto;
+    padding-bottom: 90px;
+    font-family: 'Raleway', cursive;
+    font-size: 20px;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.artikelsectie {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 90px;
+}
+
+.artikels {
+    width: 900px;
+    margin: 0 auto;
+    background: none;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: 'Raleway Dots';
+    font-weight: 550;
+    font-size: 45px;
+    text-align: right;
+}
+
+.rij {
+    width: 800px;
+    background: none;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.artikel-trends {
+    background-image: url(../images/tattooing.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 240px;
+    width: 240px;
+    float: left;
+    margin-top: 25px;
+    position: relative;
+}
+
+.artikel-trends a {
+    padding-top: 10px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 240px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    background: rgb(0,0,0,0.5);
+    font-size: 15px;
+    line-height: 27px;
+    word-spacing: 6px;
+    letter-spacing: 4px;
+    transition: ease-out 0.5s;
+}
+
+.artikel-trends a:hover {
+    height: 230px;
+}
+
+.mijn-artikel {
+    background-image: url(../images/DSC_0129.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    width: 520px;
+    float: right;
+    margin-top: 25px;
+}
+
+.mijn-artikel a {
+    padding-top: 10px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 520px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    background: rgb(0,0,0,0.5);
+    font-size: 15px;
+    line-height: 27px;
+    word-spacing: 6px;
+    letter-spacing: 4px;
+    transition: ease-out 0.5s;
+}
+
+.mijn-artikel a:hover {
+    height: 230px;
+}
+
+
+.artikel3 {
+    height: 240px;
+    width: 240px;
+    float: left;
+    margin: 20px 50px 20px 0;
+    background-image: url(../images/DSC_2577.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.artikel3 a {
+    padding-top: 10px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 240px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    background: rgb(0,0,0,0.5);
+    font-size: 15px;
+    line-height: 27px;
+    word-spacing: 6px;
+    letter-spacing: 4px;
+    transition: ease-out 0.5s;
+}
+
+.artikel3 a:hover {
+    height: 230px;
+}
+
+.quote {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 185px;
+    width: 220px;
+    float: left;
+    margin: 20px 50px 20px 0;
+    font-family: 'Raleway', cursive;
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 4px;
+    padding-top: 50px;
+}
+
+.artikel4 {
+    background-image: url(../images/tattoo-tool.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    width: 240px;
+    float: left;
+    margin: 20px 0 20px 0;
+    position: relative;
+}
+
+.artikel4 a {
+    padding-top: 10px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 240px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    background: rgb(0,0,0,0.5);
+    font-size: 15px;
+    line-height: 27px;
+    word-spacing: 6px;
+    letter-spacing: 4px;
+    transition: ease-out 0.5s;
+}
+
+.artikel4 a:hover {
+    height: 230px;
+}
+
+.eindfoto {
+    height: 530px;
+    width: 800px;
+    margin-bottom: 70px;
+}
+
+#socialmedia {
+    margin: 0 auto;
+/*    background: red;*/
+    width: 210px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+  background: none;
+  color: black;
+  border: 1px solid black; 
+}
+
+.fa-instagram {
+  background: none;
+  color: black;
+  border: 1px solid black;
+}
+
+.fa-snapchat-ghost {
+  background: none;
+  color: black;
+  border: 1px solid black;
+}
+
+#footertext {
+    font-size: 11px;
+	font-family: 'Handlee', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+    padding-top: 30px;
+    background: #f2f2f2;
+}
+
+
+
+/* ################################################### */
+
+/* Artikel */
+
+/* ################################################### */
+
+
+
+
+#articlebody {
+    background-image: url(../images/faces/Article.png);
+    background-size: cover;
+    background-position: top center;
+}
+
+#headerartikel {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.headerbackgroundartikel {
+    background-image: url(../images/2file1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.navartikel {
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Raleway', bold;
+    word-spacing: 330px;
+    margin: 0 auto;
+    padding-top: 400px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+.navartikel a {
+    display: inline-block;
+}
+
+.navartikel li {
+    display: inline;
+}
+
+#artikelbreedte {
+    width: 700px;
+    margin: 0 auto;
+    font-family: 'Raleway';
+}
+
+h2 {
+    padding-top: 120px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h3 {
+    padding-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 55px;
+    line-height: 33px;
+    word-spacing: 5px;
+}
+
+h4 {
+    padding-bottom: 30px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 30px;
+    word-spacing: 1px;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+.hyperlink a{
+    text-decoration: underline;
+    color: #e67300;
+}
+
+.artikelfoto1 {
+    width: 700px;
+    height: 400px;
+    background-image: url(../images/fabian-fauth-260389-unsplash.jpg);
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 35px;
+}
+
+.artikelrij {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.artikelfoto2 {
+    width: 420px;
+    height: 600px;
+    background-image: url(../images/DSC_0178.jpg);
+    background-size: cover;
+    float: left;
+    margin-bottom: 35px;
+}
+
+.artikelfoto3 {
+    width: 420px;
+    height: 600px;
+    background-image: url(../images/DSC_0211-2.jpg);
+    background-size: cover;
+    float: right;
+    margin-bottom: 35px;
+}
+
+blockquote {
+    position: relative;
+    font-size: 45px ;
+	text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 35px;
+    font-style: italic;
+    font-family: 'Raleway Dots';
+    font-weight: 500;
+}
+
+.quotenaam {
+    width: 900px;
+    font-family: 'Raleway Dots';
+    font-size: 20px;
+    padding-bottom: 35px;
+    padding-left: 650px;
+
+}
+
+.artikelfoto22 {
+    width: 700px;
+    height: 500px;
+    background-image: url(../images/DSC_0020-black.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.foto-eigen {
+    background-image: url(../images/DSC_0080-2.jpg);
+    background-size: cover;
+    width: 420px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.graphicdesigner {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(../images/graphic-designer.jpg);
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 35px;
+}
+
+.literatuurlijst {
+    width: 700px;
+    margin: 0 auto;
+    font-family: 'Raleway';
+    margin-top: 60px;
+    margin-bottom: 80px;
+    border-top: 1px solid black;
+    padding-top: 80px;
+}
+
+.literatuurlijst p {
+    font-size: 13px;
+    padding-bottom: 2px;
+    line-height: 20px;
+}
+
+#literatuurlijst {
+    color: black;
+}
+
+
+
